@@ -9,8 +9,11 @@ import CardReg from "./components/organisms/cards/CardReg";
 import CardSport from "./components/organisms/cards/CardSport";
 import CardTv from "./components/organisms/cards/CardTv";
 import Footer from "./components/organisms/Footer";
+import FootTime from "./components/organisms/FootTime";
+import ListImg from "./components/organisms/ListImg";
 import Navbar from "./components/organisms/Navbar";
 import Slider from "./components/organisms/Slider";
+import UFC from "./components/organisms/UFC";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
           <div className="flex">
             <div className="w-[80%] pr-9">
               <Slider />
+              <FootTime/>
+              <ListImg/>
+              <UFC/>
             </div>
             <div className="w-[20%]">
               <CardReg />

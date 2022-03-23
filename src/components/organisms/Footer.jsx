@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <div className="bg-black  rounded-t-xl">
       <div className="py-9 border-b ">
-        <div className="px-20 mx-10 flex">
-          <div className="border-r pr-7">
+        <div className="px-20 mx-10 flex justify-between">
+          <div className="border-r  w-[25%]">
             <img src={logo1} alt="logo1" />
-            <div className="text-[#6f6f6f] pr-16">
+            <div className="text-[#6f6f6f]">
               <p className="text-[#6f6f6f]">Terms & Conditions</p>
               <p className="text-[#6f6f6f]">Privacy Policy</p>
               <p className="text-[#6f6f6f]">AML/KYC Policy</p>
@@ -15,9 +15,9 @@ const Footer = () => {
               <p className="text-[#6f6f6f]">Press</p>
             </div>
           </div>
-          <div className="border-r pl-16 pr-16 ml-6">
-            <h2>HELP</h2>
-            <div className="flex">
+          <div className="border-r w-[25%]">
+            <h2 className="w-[85%] mx-auto">HELP</h2>
+            <div className="flex justify-around">
               <div>
                 <p className="text-[#6f6f6f]">Deposit</p>
                 <p className="text-[#6f6f6f]">Withdrawal</p>
@@ -33,8 +33,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="border-r mx-6">
-            <div className="px-14 mx-5 ml-6 mr-8">
+          <div className="border-r w-[25%]">
+            <div className="w-[30%] mx-auto">
               <h2>SPORTS</h2>
               <div>
                 <p className="text-[#6f6f6f]">Live betting</p>
@@ -45,19 +45,19 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="pl-16 ">
-            <div className="text-[#6f6f6f]">
+          <div className="w-[25%] ">
+            <div className="text-[#6f6f6f] w-[50%] mx-auto">
               <h2>PAYMENT METHOD</h2>
-              <div className="flex justify-between mt-3">
+              <div className="flex mt-3">
                 <i className="fa-brands fa-cc-visa"></i>
                 <i className="fa-brands fa-adversal"></i>
                 <i className="fa-brands fa-amilia"></i>
                 <i className="fa-solid fa-baht-sign"></i>
               </div>
             </div>
-            <div className="text-[#6f6f6f] mt-4">
+            <div className="text-[#6f6f6f] mt-4 w-[50%] mx-auto">
               <h2>SOCIAL NETWORK</h2>
-              <div className="flex justify-between mt-3">
+              <div className="flex mt-3">
                 <i className="fa-brands fa-facebook"></i>
                 <i className="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin"></i>
