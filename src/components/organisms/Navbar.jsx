@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="">
         <ul className="hidden lg:flex text-xs font-medium xs:text-xxl text-white ml-24">
           <li className="mx-3">SPORTS</li>
-          <li className="mx-3">LIVE <i class="fa-solid fa-record-vinyl text-red-600 blur-xs"></i></li>
+          <li className="mx-3">LIVE <i class="fa-solid fa-record-vinyl text-red-600 blur-xs text-xs"></i></li>
           <li className="mx-3">VIRTUAL SPORT</li>
           <li className="mx-3">BETGAMSE</li>
           <li className="mx-3">CASINO</li>
