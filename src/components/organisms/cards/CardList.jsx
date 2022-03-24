@@ -7,9 +7,9 @@ import Total from "../../molecules/Total";
 
 const CardList = () => {
   return (
-    <div className="mt-9">
+    <div className="mt-16 pt-2">
       <div className="flex text-center mx-10 p-1 bg-blue-800 rounded-t-xl ">
-        <h2 className="border-r">BEST SLIP</h2>
+        <h2 className="border-r w-[50%]">BEST SLIP</h2>
         <h2>MY BETS</h2>
       </div>
       <div className="bg-blue-800 rounded-2xl shadow-black ">

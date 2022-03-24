@@ -2,7 +2,7 @@ import React from "react";
 
 const CardReg = () => {
   return (
-    <div className="bg-gradient-to-bl from-zinc-900 p-4 rounded-2xl">
+    <div className="bg-gradient-to-bl from-zinc-900 p-4 rounded-2xl mt-4">
       <h2 className="font-semibold text-sm px-7 text-center">
         WANT TO PLACE A LOSING <span className="text-yellow-400">BET?</span>
       </h2>
