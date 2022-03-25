@@ -13,12 +13,12 @@ const ListImg = () => {
           <h2 className=" px-5">FOOTBALL LEAGUES </h2>
           <p className="text-[11px]">TOP LEAGE</p>
         </div>
-        <div className="flex p-4 justify-between">
-          <img src={people1} alt="people1" className="w-[90%]"/>
-          <img src={people2} alt="people2" className="w-[90%] px-4"/>
-          <img src={people3} alt="people3" className="w-[90%]"/>
-          <img src={people4} alt="people4" className="w-[90%] px-4"/>
-          <img src={people5} alt="people5" className="w-[90%]"/>
+        <div className="flex p-4 justify-between grid grid-cols-10 gap-4 ">
+          <img src={people1} alt="people1" className="w-[100%] col-span-10 md:col-span-2"/>
+          <img src={people2} alt="people2" className="w-[100%] col-span-10 md:col-span-2"/>
+          <img src={people3} alt="people3" className="w-[100%] col-span-10 md:col-span-2"/>
+          <img src={people4} alt="people4" className="w-[100%] col-span-10 md:col-span-2"/>
+          <img src={people5} alt="people5" className="w-[100%] col-span-10 md:col-span-2"/>
         </div>
       </div>
     </div>

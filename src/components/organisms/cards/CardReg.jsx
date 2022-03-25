@@ -2,7 +2,7 @@ import React from "react";
 
 const CardReg = () => {
   return (
-    <div className="bg-gradient-to-bl from-zinc-900 p-4 rounded-2xl mt-4">
+    <div className="bg-gradient-to-bl from-zinc-900 p-4 rounded-2xl">
       <h2 className="font-semibold text-sm px-7 text-center">
         WANT TO PLACE A LOSING <span className="text-yellow-400">BET?</span>
       </h2>
@@ -14,7 +14,7 @@ const CardReg = () => {
           JOIN NOW
         </button>
         <div>
-          <button type="button" className="text-white w-[100%] border-[1px] mt-3 rounded-[4px]">
+          <button type="button" className="text-white w-[100%] border-[1px] mt-3 hover:text-black hover:bg-white rounded-[4px]">
             LOGIN
           </button>
         </div>
