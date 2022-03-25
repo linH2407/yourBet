@@ -23,7 +23,9 @@ function App() {
       </div>
       <div className="flex mt-[100px] justify-center">
         <div className="w-[20%] pl-10 pr-8">
-          <Search />
+          <div className="hidden xl:flex">
+            <Search />
+          </div>
           <CardSport />
           <CardGame />
           <CardTv />
@@ -34,9 +36,9 @@ function App() {
           <div className="flex">
             <div className="w-[80%] pr-9">
               <Slider />
-              <FootTime/>
-              <ListImg/>
-              <UFC/>
+              <FootTime />
+              <ListImg />
+              <UFC />
             </div>
             <div className="w-[20%]">
               <CardReg />

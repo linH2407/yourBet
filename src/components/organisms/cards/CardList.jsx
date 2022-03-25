@@ -13,7 +13,7 @@ const CardList = () => {
         <h2>MY BETS</h2>
       </div>
       <div className="bg-blue-800 rounded-2xl shadow-black ">
-        <div className="flex justify-between z-8 px-4 py-1">
+        <div className="flex justify-around ">
           <h2>SINGLE BET</h2>
           <h2>PARPLAY</h2>
           <h2>SYSTEM</h2>
