@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div>
-      <div className="w-screen h-[100px] flex px-10 items-center fixed top-0 z-30 bg-[#16171b] grid grid-cols-12 justify-between">
+      <div className="w-screen h-[100px] flex px-10 items-center fixed top-0 z-30 bg-[#16171b] grid grid-cols-12 justify-between drop-shadow-lg">
         <div className="flex col-span-3 md:col-span-2">
           <div className=" flex mr-1">
             <img src={logo} alt="logo" className=" " />

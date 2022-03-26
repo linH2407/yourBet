@@ -51,10 +51,15 @@ function App() {
               <ListImg />
               <UFC />
             </div>
-            <div className="col-span-10 lg:col-span-2 flex flex-col lg:flex-col lg:justify-between mt-8 lg:mt-2 ">
-              <div className=" grid sm:grid-cols-2 flex flex-col sm:flex-row sm:justify-between mb-8 xl:mb-0">
-                <CardReg />
-                <div className="lg:hidden">
+            <div className="col-span-10 lg:col-span-2 flex flex-col lg:justify-between mt-8 lg:mt-2 ">
+              <div className="  grid grid-cols-11 flex flex-col sm:flex-row sm:justify-between mb-8 xl:mb-0">
+                <div className="col-span-11 sm:col-span-5 sm:h-full lg:col-span-11">
+                  <CardReg />
+                </div>
+                <div className="">
+
+                </div>
+                <div className="col-span-11 sm:col-span-5 lg:hidden">
                   <Banner />
                 </div>
               </div>
