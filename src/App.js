@@ -52,7 +52,7 @@ function App() {
               <UFC />
             </div>
             <div className="col-span-10 lg:col-span-2 flex flex-col lg:flex-col lg:justify-between mt-8 lg:mt-2 ">
-              <div className=" flex sm:flex-col mb-8 sm:mb-0">
+              <div className=" grid sm:grid-cols-2 flex flex-col sm:flex-row sm:justify-between mb-8 xl:mb-0">
                 <CardReg />
                 <div className="lg:hidden">
                   <Banner />
@@ -69,24 +69,26 @@ function App() {
         </div>
       </div>
 
-      <div className="grid grid-cols-11 xl:col-span-2 pl-10 pr-8 flex justify-between  xl:flex-col xl:justify-around mt-[-36px] xl:hidden ">
-        <div className="col-span-5">
-          <div className=" mt-10 xl:mt-0">
-            <CardSport />
+      <div className=" pl-10 pr-8  mt-[-36px] xl:hidden ">
+        <div className="grid grid-cols-11 flex flex-col justify-between xs:flex-row xs:justify-around">
+          <div className=" col-span-11 sm:col-span-5">
+            <div className=" mt-10 xl:mt-0">
+              <CardSport />
+            </div>
+            <div className=" mt-10 xl:mt-0">
+              <CardGame />
+            </div>
+            <div className=" mt-10 xl:mt-0">
+              <CardTv />
+            </div>
+            <div className="mt-10 xl:mt-0">
+              <CardMenu />
+            </div>
           </div>
-          <div className=" mt-10 xl:mt-0">
-            <CardGame />
+          <div className=" sm:col-span-1"></div>
+          <div className="col-span-11 sm:col-span-5 mt-10 xl:mt-0 flex-end">
+            <CardLive />
           </div>
-          <div className=" mt-10 xl:mt-0">
-            <CardTv />
-          </div>
-          <div className="mt-10 xl:mt-0">
-            <CardMenu />
-          </div>
-        </div>
-        <div className="col-span-1"></div>
-        <div className="col-span-5 mt-10 xl:mt-0 flex-end">
-          <CardLive />
         </div>
       </div>
 

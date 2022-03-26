@@ -3,6 +3,8 @@ import logo from "../atoms/logo.png";
 import Register from "../molecules/buttons/Register";
 import Login from "../molecules/buttons/Login";
 import Search from "../molecules/search/Search";
+
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -43,8 +45,8 @@ const Navbar = () => {
         </div>
       </div>
       {showMenu && (
-        <div className="fixed bg-[#16171b] right-0 h-screen w-1/2">
-          <ul className=" text-white text-lg font-semibold xl:hidden flex flex-col items-center leading-loose justify-around">
+        <div className="fixed bg-[#16171b] right-0 h-screen w-1/2 scale-up-ver-top ">
+          <ul className=" text-white text-lg font-semibold xl:hidden flex flex-col items-center leading-loose justify-around ">
             <li className="my-3" onClick={() => setShowMenu(false)}>
               SPORTS
             </li>

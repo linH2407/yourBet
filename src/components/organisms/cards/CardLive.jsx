@@ -8,7 +8,7 @@ const CardLive = () => {
         <div className="bg-black rounded-t-lg">
           <h2 className="border-b mx-3">SPORT</h2>
           <div>
-            <ul className="text-white flex text-xs py-2 px-0 sm:px-3 xl:px-1 justify-between xl:flex-row">
+            <ul className="text-white flex text-xs py-2 px-1 sm:px-3 xl:px-2 justify-between xl:flex-row">
               <li>All</li>
               <li>1h</li>
               <li>3h</li>
