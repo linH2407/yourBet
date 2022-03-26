@@ -8,12 +8,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="w-screen h-[100px] flex px-10 items-center fixed top-0 z-30 bg-[#16171b] grid grid-cols-12 justify-between">
-        <div className="flex col-span-2">
+        <div className="flex col-span-3 md:col-span-2">
           <div className=" flex mr-1">
             <img src={logo} alt="logo" className=" " />
           </div>
         </div>
-        <div className="flex col-span-9">
+        <div className="flex col-span-8 md:col-span-9">
           <div className=" hidden xl:flex flex w-[80%]">
             <ul className=" text-xs font-medium xs:text-xxl text-white pt-2 flex justify-around ml-6">
               <li className="mr-2 ">SPORTS</li>
@@ -36,15 +36,15 @@ const Navbar = () => {
           <Login />
           <Register />
         </div>
-        <div className="  xl:hidden flex justify-end">
+        <div className="  xl:hidden mr-[-24px]  xs:mr-0 flex justify-end">
           <button type="button" onClick={() => setShowMenu(!showMenu)}>
             <i className="fa-solid fa-bars text-yellow-400"></i>
           </button>
         </div>
       </div>
       {showMenu && (
-        <div className="absolute bg-[#16171b] right-0 h-screen w-1/2">
-          <ul className=" text-white text-lg font-semibold xl:hidden flex flex-col items-center leading-loose">
+        <div className="fixed bg-[#16171b] right-0 h-screen w-1/2">
+          <ul className=" text-white text-lg font-semibold xl:hidden flex flex-col items-center leading-loose justify-around">
             <li className="my-3" onClick={() => setShowMenu(false)}>
               SPORTS
             </li>

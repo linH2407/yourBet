@@ -7,8 +7,8 @@ import Total from "../../molecules/Total";
 
 const CardList = () => {
   return (
-    <div className="mt-16 pt-2">
-      <div className="flex text-center mx-10 p-1 bg-blue-800 rounded-t-xl ">
+    <div className="">
+      <div className="flex text-center mx-10 p-1 bg-blue-800 rounded-t-xl border-b">
         <h2 className="border-r w-[50%]">BEST SLIP</h2>
         <h2>MY BETS</h2>
       </div>
@@ -28,16 +28,17 @@ const CardList = () => {
           <div className="py-5 px-2">
             <Amount />
           </div>
-          <div  className='bg-[#222327] mx-[-12px] px-3 py-1'>
-              <Total/>
+          <div className="bg-[#222327] mx-[-12px] px-3 py-1">
+            <Total />
           </div>
-          <div className="flex mt-3 justify-between px-1">
-              <Clear/>
-              <PlaceBet/>
+          <div className="flex flex-col mt-3 justify-between px-2">
+            <div className="mb-3">
+              <Clear />
+            </div>
+            <PlaceBet />
           </div>
           <div className="mt-3 pb-7">
-              <p className="font-semibold text-[13px]">Accept all odds change</p>
-
+            <p className="font-semibold text-[13px]">Accept all odds change</p>
           </div>
         </div>
         <div className="text-blue-800 mt-[-20px]">-</div>

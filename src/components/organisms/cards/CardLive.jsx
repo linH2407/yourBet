@@ -3,12 +3,12 @@ import CheckBox from "../../molecules/checkbox/CheckBox";
 
 const CardLive = () => {
   return (
-    <div className="pt-4">
-      <div className="bg-[#222126] mt-20 rounded-lg">
+    <div className=" mb-10 xl:mb-0">
+      <div className="bg-[#222126] rounded-lg">
         <div className="bg-black rounded-t-lg">
           <h2 className="border-b mx-3">SPORT</h2>
           <div>
-            <ul className="text-white flex text-xs pl-3 py-2">
+            <ul className="text-white flex text-xs py-2 px-0 sm:px-3 xl:px-1 justify-between xl:flex-row">
               <li>All</li>
               <li>1h</li>
               <li>3h</li>

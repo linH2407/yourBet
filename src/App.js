@@ -21,33 +21,75 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div className="flex mt-[100px] justify-center">
-        <div className="w-[20%] pl-10 pr-8">
+      <div className="flex mt-[100px] justify-center grid grid-cols-10">
+        <div className="col-span-10 xl:col-span-2 pl-10 pr-8 flex justify-between  xl:flex-col xl:justify-around mt-[-36px] hidden xl:flex">
           <div className="hidden xl:flex">
             <Search />
           </div>
-          <CardSport />
-          <CardGame />
-          <CardTv />
-          <CardLive />
-          <CardMenu />
+          <div className="col-span-2 mt-10 xl:mt-0">
+            <CardSport />
+          </div>
+          <div className="col-span-2 mt-10 xl:mt-0">
+            <CardGame />
+          </div>
+          <div className="col-span-2 mt-10 xl:mt-0">
+            <CardTv />
+          </div>
+          <div className="mt-10 xl:mt-0">
+            <CardLive />
+          </div>
+          <div className="hidden xl:block">
+            <CardMenu />
+          </div>
         </div>
-        <div className="w-[80%] bg-[#222327] rounded-tl-3xl mb-9 px-10 py-9">
-          <div className="flex">
-            <div className="w-[80%] pr-9">
+
+        <div className=" col-span-12 xl:col-span-8 bg-[#222327] rounded-tl-3xl mb-9 px-10 py-9">
+          <div className="flex grid grid-cols-10 ">
+            <div className="col-span-12 lg:col-span-8 pr-0 lg:pr-9">
               <Slider />
               <FootTime />
               <ListImg />
               <UFC />
             </div>
-            <div className="w-[20%]">
-              <CardReg />
-              <CardList />
-              <Banner />
+            <div className="col-span-10 lg:col-span-2 flex flex-col lg:flex-col lg:justify-between mt-8 lg:mt-2 ">
+              <div className=" flex sm:flex-col mb-8 sm:mb-0">
+                <CardReg />
+                <div className="lg:hidden">
+                  <Banner />
+                </div>
+              </div>
+              <div className="w-[100%]">
+                <CardList />
+              </div>
+              <div className="hidden lg:block">
+                <Banner />
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="grid grid-cols-11 xl:col-span-2 pl-10 pr-8 flex justify-between  xl:flex-col xl:justify-around mt-[-36px] xl:hidden ">
+        <div className="col-span-5">
+          <div className=" mt-10 xl:mt-0">
+            <CardSport />
+          </div>
+          <div className=" mt-10 xl:mt-0">
+            <CardGame />
+          </div>
+          <div className=" mt-10 xl:mt-0">
+            <CardTv />
+          </div>
+          <div className="mt-10 xl:mt-0">
+            <CardMenu />
+          </div>
+        </div>
+        <div className="col-span-1"></div>
+        <div className="col-span-5 mt-10 xl:mt-0 flex-end">
+          <CardLive />
+        </div>
+      </div>
+
       <div>
         <Footer />
       </div>

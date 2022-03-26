@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-2 px-20 ml-10 text-[#6f6f6f]">
+      <div className="py-2 ml-10 text-[#6f6f6f]">
         <p className="text-[#6f6f6f]">All rights reserved 2021 @</p>
       </div>
     </div>
